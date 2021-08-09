@@ -1,7 +1,6 @@
 # Projeto de análise e previsão do número de pacientes que irão para UTI no hospital Sírio-Libanês.
 
 <p align="center"><img src=https://agenciapara.com.br/midias/2021/grandes/up_ag_24788_5973351a-687b-7fe9-6463-644f12ee2d5d.jpg?quality=70&strip=info&resize=680,453 </p> 
-![Alt](https://agenciapara.com.br/midias/2021/grandes/up_ag_24788_5973351a-687b-7fe9-6463-644f12ee2d5d.jpg)
 
 # **Introdução**
 
