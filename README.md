@@ -8,10 +8,10 @@ Este é o meu quarto projeto feito em função do Bootcamp de Data Science aplic
 
 # **Contexto**
   
-A pandemia de COVID-19 impactou todo o plane, exigindo de mais dos sistemas de saúde - despreparado para uma demando intensa e larga por camas de UTI, profissionais, equipamentos de proteção pessoal e recursos para cuidado da saúde.
+- A pandemia de COVID-19 impactou todo o plane, exigindo de mais dos sistemas de saúde - despreparado para uma demando intensa e larga por camas de UTI, profissionais, equipamentos de proteção pessoal e recursos para cuidado da saúde.
 Brasil registrou seu primeiro caso de COVID-19 em 26 de Fevereiro de 2020 e o começo da transmissão comunitária em 20 Março de 2020.
   
-Há urgência em obter precisão para melhor prever e preparar os sitemas de cuidado à saúde e evitar colapso, definido pela necessidade de camas de UTI acima da capacidade (assumindo que recursos humans, EPI's e profissionais estão disponíveis), usando dados clínicos individuais - no lugar de dados epidemiológicos e populacionais.
+- Há urgência em obter precisão para melhor prever e preparar os sitemas de cuidado à saúde e evitar colapso, definido pela necessidade de camas de UTI acima da capacidade (assumindo que recursos humans, EPI's e profissionais estão disponíveis), usando dados clínicos individuais - no lugar de dados epidemiológicos e populacionais.
   
 <p align="center"><img src=https://img.medscape.com/thumbnail_library/cdc_200313_flatten_the_curve_800x450.jpg?quality=70&strip=info&resize=680,453 </p> 
   
@@ -45,9 +45,9 @@ Algumas resalvas foram dadas à cerca do uso dos dados assim como as seguintes d
 
 ## **Metodologia e resultado:**
 
-Eu comecei analisando 5 modelos amplamente usados para problemas de classificação de dados: GradientBoostingClassifier, AdaBoostClassifier, KNeighborsClassifier, RandomForestClassifier e DecisionTreeClassifier. Dado esses 5 modelos eu utilizei 3 parâmetros para os avaliar: o F1-Score, o ROC AUC Score e o número de falsos negativos.
-Após uma primeira avaliação eu levei para frente os modelos de RandomForestClassifier e GradientBoostingClassifier a fim de fazer uma análise expandindo o limite dos parâmetros testados e o número de testes para se chegar na melhor parametrização, agora usando somente à métrica de F1 Score como argumento de otimização das funções.
-O resultado final foi de que a segunda avaliação foi um pouco obsoleta, gerando resultados muito parecidos ao da primeira análise para os dois modelos em questão. O número de falsos negativos para os dois modelos foi igual, contudo, a métrica F1 do modelo de RandomForest foi ligeiramente maior do que a do modelo de AdaBoost, assim, sendo o modelo mais adequado para ser implementado segundo os testes realizados, obtendo no final um F1 Score de 70.75 % e acertando aproximadamente 69% das previsões para os pacientes que precisam ir para a UTI.
+- Eu comecei analisando 5 modelos amplamente usados para problemas de classificação de dados: GradientBoostingClassifier, AdaBoostClassifier, KNeighborsClassifier, RandomForestClassifier e DecisionTreeClassifier. Dado esses 5 modelos eu utilizei 3 parâmetros para os avaliar: o F1-Score, o ROC AUC Score e o número de falsos negativos.
+- Após uma primeira avaliação eu levei para frente os modelos de RandomForestClassifier e GradientBoostingClassifier a fim de fazer uma análise expandindo o limite dos parâmetros testados e o número de testes para se chegar na melhor parametrização, agora usando somente à métrica de F1 Score como argumento de otimização das funções.
+- O resultado final foi de que a segunda avaliação foi um pouco obsoleta, gerando resultados muito parecidos ao da primeira análise para os dois modelos em questão. O número de falsos negativos para os dois modelos foi igual, contudo, a métrica F1 do modelo de RandomForest foi ligeiramente maior do que a do modelo de AdaBoost, assim, sendo o modelo mais adequado para ser implementado segundo os testes realizados, obtendo no final um F1 Score de 70.75 % e acertando aproximadamente 69% das previsões para os pacientes que precisam ir para a UTI.
 
 ## **Projeções futuras**
 
