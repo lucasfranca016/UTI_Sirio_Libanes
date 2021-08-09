@@ -42,7 +42,9 @@ Algumas resalvas foram dadas à cerca do uso dos dados assim como as seguintes d
 - Construção de um modelo preditivo
 
 - Resultado
-
+  
+No próprio notebook há uma análise de cada passo que foi dado e o porquê ele foi dado, desde a análise até a construção dos modelos, assim como uma breve descrição da utilização das funções empregadas.
+  
 ## **Metodologia e resultado:**
 
 - Eu comecei analisando 5 modelos amplamente usados para problemas de classificação de dados: GradientBoostingClassifier, AdaBoostClassifier, KNeighborsClassifier, RandomForestClassifier e DecisionTreeClassifier. Dado esses 5 modelos eu utilizei 3 parâmetros para os avaliar: o F1-Score, o ROC AUC Score e o número de falsos negativos.
