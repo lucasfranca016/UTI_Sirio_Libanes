@@ -24,8 +24,8 @@ Nele temos uma coluna referente ao id do paciente, colunas referentes a sua faix
 Algumas resalvas foram dadas à cerca do uso dos dados assim como as seguintes descrições:
   
   - "Cuidado para NÃO usar os dados quando a variável de destino estiver presente(UTI = 1), pois a ordem do evento é desconhecida (talvez o evento de destino tenha acontecido antes de os resultados serem obtidos). Eles foram mantidos lá para que possamos aumentar este conjunto de dados em outros resultados posteriormente."
-  -"Este conjunto de dados contém dados anônimos do Hospital Sírio-Libanês, de São Paulo e de Brasília. Todos os dados foram tornados anônimos de acordo com as melhores práticas e recomendações internacionais."
-  -Os dados foram limpos e escalados por coluna de acordo com Min Max Scaler para caber entre -1 e 1.
+  - "Este conjunto de dados contém dados anônimos do Hospital Sírio-Libanês, de São Paulo e de Brasília. Todos os dados foram tornados anônimos de acordo com as melhores práticas e recomendações internacionais."
+  - Os dados foram limpos e escalados por coluna de acordo com Min Max Scaler para caber entre -1 e 1.
 
 # **Estrutura do notebook:**
 
