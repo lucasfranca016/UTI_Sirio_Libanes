@@ -4,7 +4,7 @@
 
 # **Introdução**
 
-Este é o meu quarto projeto feito em função do Bootcamp de Data Science aplicada da Alura. Nele usarei os processos de análise e manipulação de dataframes em conjunto com ferramentas gráficas e algoritmos de Machine Learning para trabalhar com dados oferecidos pelo hospital Sírio-Libanês que representam pacientes verdadeiros do próprio hospital e sua ficha médica. Meu objetivo aqui é tentar trabalhar em cima das técnicas de optimização por mim aprendidas drante o curso para construção de um bom algoritmo que consiga prever corretamente se um paciente irá para a UTI ou não.
+Este é o meu quarto projeto feito em função do Bootcamp de Data Science aplicada da Alura. Nele usarei os processos de análise e manipulação de dataframes em conjunto com ferramentas gráficas e algoritmos de Machine Learning para trabalhar com dados oferecidos pelo hospital Sírio-Libanês que representam pacientes verdadeiros do próprio hospital e sua ficha médica. Meu objetivo aqui é tentar trabalhar em cima das técnicas de optimização por mim aprendidas durante o curso para construção de um bom algoritmo que consiga prever corretamente se um paciente irá para a UTI ou não.
 
 # **Contexto**
   
